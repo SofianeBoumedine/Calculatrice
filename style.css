@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "sertig";
+    src: url('font/Sertig.otf');
+}
+
+body,html {
+	font-family: sertig, Helvetica, Arial, sans-serif;
+	background: #2980b9 center fixed;
+	background-size: cover;
+}
+
+#container {
+	font-size: 32px;
+	margin: 128px auto;
+	width: 768px;
+}
+
+h1 {
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+	margin-bottom: 32px;
+}
+
+#calculator, #number, .buttons{
+	border-radius: 6px;
+}
+
+#restart {
+	width: 5%;
+	height: auto;
+
+}
+
+#calculator {
+	margin: 0 auto;
+	background-color: #454545;
+	border: 1px solid #3D3D3D;
+	width: 320px;
+	box-shadow: 0 7px 10px rgba(0, 0, 0, .8);
+}
+
+#header {
+	padding: 20px;
+	border-top: 1px solid #777;
+	border-radius: 6px 6px 0 0;
+}
+
+input#number {
+	text-align: right;
+	background-color: #121212;
+	border:none;
+	color: #C8C8C8;
+	font-size: 20px;
+	padding: 15px;
+	border-bottom: 1px solid #777;
+	box-shadow: inset 0 0 10px 4px rgba(0, 0, 0, .6);
+}
+
+#body {
+	padding: 0 25px;
+}
+
+.buttons {
+	cursor: default;
+	text-align: center;
+	padding: 7px 12px;
+	font-size: 20px;
+	text-shadow: 0 -1px 1px #000;
+	color: #FFF;
+	font-weight: bold;
+	display: inline-block;
+	border-top: 1px solid #777;
+	width: 34px;
+	background: linear-gradient(#5F5F5F 0%, #404040 100%);
+	box-shadow: 0 2px 6px rgba(0, 0, 0, .8);
+	margin-bottom: 10px;
+}
+
+.buttons:hover {
+	background: linear-gradient(#79D144 0%, #50A61F 100%);
+	border-top: 1px solid #9ADD73;
+	text-shadow: 0 -1px 1px #000000;
+}
+
+.buttons:active {
+	text-shadow: none;
+}
+
+hr {
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#logo {
+	width: 10%;
+	height: auto;
+}
+
+@media only screen and (max-width:799px) {
+	#container {
+		
+	}
+
+}
